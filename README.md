@@ -11,4 +11,6 @@ This library communicates with an arduino I2C slave that offers:
 * A rotatory encoder
 * A led
 
+![Arduino pro mini connections](https://github.com/jorts64/I2Csapm/blob/master/docs/promini8MHz.png)
+
 WORK in PROGRESS !
