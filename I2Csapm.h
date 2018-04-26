@@ -2,7 +2,7 @@
 //    FILE: I2Csapm.H
 //  AUTHOR: Jordi Orts
 //    DATE: 26-04-2018
-// VERSION: 0.1.00
+// VERSION: 0.1.10
 // PURPOSE: I2C slave arduino pro micro
 //     URL: http://
 //
@@ -19,7 +19,7 @@
 #include "WProgram.h"
 #endif
 
-#define I2Csapm_LIB_VERSION "0.1.00"
+#define I2Csapm_LIB_VERSION "0.1.10"
 
 #define I2Csapm_A0  0
 #define I2Csapm_A1  1
@@ -28,7 +28,7 @@
 #define I2Csapm_A4  4
 #define I2Csapm_A5  5
 #define I2Csapm_SW  6
-#define I2Csapm_ROT 7;
+#define I2Csapm_ROT 7
 #define I2Csapm_POS 8
 #define I2Csapm_KEY 9
 
