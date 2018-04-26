@@ -11,4 +11,4 @@ This library communicates with an arduino I2C slave that offers:
 * A rotatory encoder
 * A led
 
-WOTK in PROGRESS !
+WORK in PROGRESS !
