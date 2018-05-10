@@ -29,6 +29,9 @@ void I2Csapm::begin()
 int16_t I2Csapm::read(const uint8_t reg)
 {
   Wire.beginTransmission(_address);
+  Wire.write(reg);
+  Wire.endTransmission();
+  Wire.beginTransmission(_address);
   Wire.requestFrom(_address,(uint8_t)2);
   _dataIn = Wire.read()<<8 | Wire.read();
   Wire.endTransmission();

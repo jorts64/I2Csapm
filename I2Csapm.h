@@ -32,8 +32,8 @@
 #define I2Csapm_POS 8
 #define I2Csapm_KEY 9
 
-#define I2Csapm_LED_OFF  0
-#define I2Csapm_LED_ON   1
+#define I2Csapm_LED_OFF  65
+#define I2Csapm_LED_ON   64
 
 class I2Csapm
 {
